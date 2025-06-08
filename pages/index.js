@@ -104,6 +104,15 @@ export default function Home() {
                 <Image src="/linkedin.svg" alt="LinkedIn" width={32} height={32} /> LinkedIn
               </a>
               <a
+                  href="https://www.instagram.com/eduardo_jelonschek/"
+                  target="_blank"
+                  className="btn-contato instagram"
+                  aria-label="Instagram"
+                  rel="noreferrer"
+              >
+                <Image src="/instagram.svg" alt="Instagram" width={32} height={32} /> Instagram
+              </a>
+              <a
                   href="https://open.spotify.com/user/31mnlmrgqqsgvdwwnj7ofmxv4tpy"
                   target="_blank"
                   className="btn-contato spotify"
