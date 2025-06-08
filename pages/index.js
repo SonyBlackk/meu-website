@@ -13,12 +13,23 @@ export default function Home() {
   return (
       <>
         <Head>
+
           <title>Luiz Eduardo Jelonschek | Desenvolvedor Backend</title>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+          <nav className="menu">
+            <div className="container">
+              <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </div>
+          </nav>
+
         </Head>
 
         <header className="hero">
@@ -51,7 +62,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="projetos">
+        <section id="projetos" className="projetos">
           <div className="container">
             <h2>Projetos</h2>
             <ul>
@@ -70,14 +81,14 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="stack">
+        <section id="stack" className="stack">
           <div className="container">
             <h2>Stack</h2>
             <p>C#, .NET, SQL Server, JavaScript, HTML, CSS, Git, REST APIs</p>
           </div>
         </section>
 
-        <section className="contato">
+        <section id="contato" className="contato">
           <div className="container">
             <h2>Contato</h2>
             <div className="botoes-contato">
