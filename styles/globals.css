@@ -16,28 +16,32 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--cor-bg);
   color: var(--cor-texto);
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 16px;
 }
 
 a {
   color: var(--cor-destaque);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #b47bff;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem 1.5rem;
 }
 
 header.hero {
   background-color: var(--cor-secundaria);
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   animation: fadeInDown 1s ease-out;
+  border-bottom: 1px solid #222;
 }
 
 .hero-grid {
@@ -45,7 +49,7 @@ header.hero {
   flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -62,10 +66,11 @@ header.hero {
   font-size: 3rem;
   margin-bottom: 1rem;
   color: var(--cor-verde);
+  line-height: 1.2;
 }
 
 .hero-text p {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: var(--cor-destaque);
 }
 
@@ -86,13 +91,19 @@ section {
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--cor-destaque);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--cor-destaque);
   display: inline-block;
+}
+
+ul {
+  padding-left: 1rem;
 }
 
 ul li {
   margin-bottom: 0.75rem;
+  list-style-type: disc;
 }
 
 footer {
@@ -101,6 +112,7 @@ footer {
   background-color: var(--cor-secundaria);
   font-size: 0.9rem;
   color: #8b949e;
+  border-top: 1px solid #222;
 }
 
 @keyframes fadeInDown {
@@ -125,35 +137,39 @@ footer {
   }
 }
 
+/* Contato */
+
 .botoes-contato {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .btn-contato {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   background-color: var(--cor-secundaria);
   border: 2px solid var(--cor-destaque);
   color: var(--cor-destaque);
   padding: 0.75rem 1.25rem;
-  border-radius: 8px;
-  text-decoration: none;
+  border-radius: 10px;
   font-weight: 600;
   transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
 }
 
 .btn-contato img {
   width: 20px;
   height: 20px;
+  transition: filter 0.3s ease;
 }
 
 .btn-contato:hover {
   background-color: var(--cor-destaque);
   color: #fff;
+  box-shadow: 0 0 10px rgba(162, 89, 255, 0.5);
 }
 
 .btn-contato:hover img {
