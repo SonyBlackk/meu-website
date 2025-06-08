@@ -101,7 +101,7 @@ export default function Home() {
                   aria-label="LinkedIn"
                   rel="noreferrer"
               >
-                <Image src="/img_1.png" alt="LinkedIn" width={32} height={32} /> LinkedIn
+                <Image src="/linkedin.svg" alt="LinkedIn" width={32} height={32} /> LinkedIn
               </a>
               <a
                   href="https://open.spotify.com/user/31mnlmrgqqsgvdwwnj7ofmxv4tpy"
