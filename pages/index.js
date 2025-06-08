@@ -18,10 +18,6 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          <link
-              href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-              rel="stylesheet"
-          />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         </Head>
 
@@ -112,6 +108,14 @@ export default function Home() {
               >
                 <Image src="/instagram.svg" alt="Instagram" width={32} height={32} /> Instagram
               </a>
+              <a
+                  href="mailto:luizjelonschek07@gmail.com"
+                  className="btn-contato email"
+                  aria-label="Email"
+              >
+                <Image src="/email.svg" alt="Email" width={32} height={32} /> Email
+              </a>
+
               <a
                   href="https://open.spotify.com/user/31mnlmrgqqsgvdwwnj7ofmxv4tpy"
                   target="_blank"
