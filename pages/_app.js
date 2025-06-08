@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
-import { inject } from '@vercel/speed-insights';
 import { Inter } from 'next/font/google';
+import { inject } from '@vercel/speed-insights';
 
 const inter = Inter({
   subsets: ['latin'],
