@@ -113,7 +113,7 @@ export default function Home() {
                 <Image src="/email.svg" alt="Email" width={32} height={32} /> Email
               </a>
               <a
-                  href="https://wa.me/5544999999999"
+                  href="https://wa.me/5546999174718"
                   target="_blank"
                   className="btn-contato whatsapp"
                   aria-label="WhatsApp"
