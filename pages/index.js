@@ -14,7 +14,6 @@ export default function Home() {
   return (
       <>
         <Head>
-
           <title>Luiz Eduardo Jelonschek | Desenvolvedor Backend</title>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,33 +22,26 @@ export default function Home() {
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         </Head>
 
-        <header className="hero">
-          <div className="container hero-grid">
+        <nav className="menu">
+          <ul>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <section className="hero-sobre">
+          <div className="container hero-sobre-grid">
             <div className="hero-text">
               <h1>Luiz Eduardo Jelonschek</h1>
               <p>Desenvolvedor Backend com foco em C# e .NET</p>
             </div>
-            <div className="hero-img">
-              <Image
-                  src="/img.png"
-                  alt="Ilustração tecnologia"
-                  width={400}
-                  height={400}
-              />
+            <div className="sobre-text">
+              <h2>Sobre Mim</h2>
+              <p>
+                Sou estudante de Engenharia de Software na UTFPR, uma instituição altamente reconhecida e com avaliação máxima no MEC. Desde criança sou apaixonado por tecnologia, e hoje venho aprofundando meus conhecimentos na área da programação. Atualmente, atuo como Analista de Sistemas na Nootech Sistemas, onde me especializo em desenvolvimento backend utilizando C# e .NET.
+              </p>
             </div>
-          </div>
-        </header>
-
-        <section className="sobre">
-          <div className="container">
-            <h2>Sobre Mim</h2>
-            <p>
-              Sou estudante de Engenharia de Software na UTFPR, uma instituição altamente reconhecida
-              e com avaliação máxima no MEC. Desde criança sou apaixonado por tecnologia, e hoje
-              venho aprofundando meus conhecimentos na área da programação. Atualmente, atuo como
-              Analista de Sistemas na Nootech Sistemas, onde me especializo em desenvolvimento backend
-              utilizando C# e .NET.
-            </p>
           </div>
         </section>
 
@@ -57,17 +49,9 @@ export default function Home() {
           <div className="container">
             <h2>Projetos</h2>
             <ul>
-              <li>
-                <strong>Integração iFood/MeuERPOnline:</strong> tratamento de cupons, benefits e
-                valores no PDV.
-              </li>
-              <li>
-                <strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos.
-              </li>
-              <li>
-                <strong>Kit de Produtos com Rateio:</strong> criação de funcionalidade de valor fixo
-                com distribuição proporcional.
-              </li>
+              <li><strong>Integração iFood/MeuERPOnline:</strong> tratamento de cupons, benefits e valores no PDV.</li>
+              <li><strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos.</li>
+              <li><strong>Kit de Produtos com Rateio:</strong> funcionalidade de valor fixo com distribuição proporcional.</li>
             </ul>
           </div>
         </section>
@@ -83,12 +67,10 @@ export default function Home() {
           <div className="container">
             <h2>Contato</h2>
             <Link href="/contato">
-            <a className="btn-contato contatos" aria-label="GitHub">
-              <Image src="/contato.svg" alt="GitHub" width={32} height={32} />
-              Meus Contatos
-            </a>
-          </Link>
-
+              <a className="btn-contato contatos" aria-label="GitHub">
+                <Image src="/contato.svg" alt="GitHub" width={32} height={32} /> Meus Contatos
+              </a>
+            </Link>
           </div>
         </section>
 
