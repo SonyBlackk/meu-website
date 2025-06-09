@@ -68,14 +68,14 @@ export default function Home() {
             <ul>
               <li>
                 <strong>Integração iFood/MeuERPOnline:</strong> tratamento de cupons, benefits e
-                valores no PDV
+                valores no PDV.
               </li>
               <li>
-                <strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos
+                <strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos.
               </li>
               <li>
                 <strong>Kit de Produtos com Rateio:</strong> criação de funcionalidade de valor fixo
-                com distribuição proporcional
+                com distribuição proporcional.
               </li>
             </ul>
           </div>
