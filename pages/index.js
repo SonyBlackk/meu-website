@@ -1,21 +1,7 @@
-import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Home() {
-  const [versao, setVersao] = useState('');
-
-  useEffect(() => {
-    fetch('/api/version')
-        .then(res => res.json())
-        .then(data => setVersao(data.version));
-
-    const script = document.createElement('script');
-    script.src = '/main.js';
-    script.defer = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
       <>
         <Head>
@@ -141,7 +127,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonshek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">v: {versao}</div>
+          <div className="versao-site">v0.1.1</div>
         </footer>
       </>
   );
