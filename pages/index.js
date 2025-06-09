@@ -20,16 +20,6 @@ export default function Home() {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-          <nav className="menu">
-            <div className="container">
-              <ul>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#stack">Stack</a></li>
-                <li><a href="#contato">Contato</a></li>
-              </ul>
-            </div>
-          </nav>
-
         </Head>
 
         <header className="hero">
@@ -128,7 +118,7 @@ export default function Home() {
                   className="btn-contato whatsapp"
                   aria-label="WhatsApp"
                   rel="noreferrer">
-                <Image src="/whatsapp.svg" alt="WhatsApp" width={32} height={32} /> WhatsApp
+                <Image src="/whatsapp.png" alt="WhatsApp" width={32} height={32} /> WhatsApp
               </a>
               <a
                   href="https://open.spotify.com/user/31mnlmrgqqsgvdwwnj7ofmxv4tpy"
