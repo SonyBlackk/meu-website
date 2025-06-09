@@ -141,7 +141,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonschek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">v{versao}</div>
+          <div className="versao-site">v: {versao}</div>
         </footer>
       </>
   );
