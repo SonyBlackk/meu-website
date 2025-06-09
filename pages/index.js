@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   useEffect(() => {
@@ -81,16 +82,13 @@ export default function Home() {
         <section id="contato" className="contato">
           <div className="container">
             <h2>Contato</h2>
-            <div className="botoes-contato">
-              <a
-                  href="contato.js"
-                  target="_blank"
-                  className="btn-contato github"
-                  aria-label="GitHub"
-                  rel="noreferrer">
-                <Image src="/github.svg" alt="GitHub" width={32} height={32} /> GitHub
-              </a>
-            </div>
+            <Link href="/contato">
+            <a className="btn-contato contatos" aria-label="GitHub">
+              <Image src="/contato.svg" alt="GitHub" width={32} height={32} />
+              Meus Contatos
+            </a>
+          </Link>
+
           </div>
         </section>
 
