@@ -118,7 +118,7 @@ export default function Home() {
                   className="btn-contato whatsapp"
                   aria-label="WhatsApp"
                   rel="noreferrer">
-                <Image src="/whatsapp.png" alt="WhatsApp" width={32} height={32} /> WhatsApp
+                <Image src="/whatsapp.svg" alt="WhatsApp" width={32} height={32} /> WhatsApp
               </a>
               <a
                   href="https://open.spotify.com/user/31mnlmrgqqsgvdwwnj7ofmxv4tpy"
