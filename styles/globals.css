@@ -175,3 +175,14 @@ footer {
 .btn-contato:hover img {
   filter: brightness(0) invert(1);
 }
+
+.versao-site {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 0.7rem;
+  color: #555;
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
