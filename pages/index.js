@@ -1,9 +1,15 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Home() {
+  const [versao, setVersao] = useState('');
+
   useEffect(() => {
+    fetch('/api/version')
+        .then(res => res.json())
+        .then(data => setVersao(data.version));
+
     const script = document.createElement('script');
     script.src = '/main.js';
     script.defer = true;
@@ -13,7 +19,6 @@ export default function Home() {
   return (
       <>
         <Head>
-
           <title>Luiz Eduardo Jelonschek | Desenvolvedor Backend</title>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -136,7 +141,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonschek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">v1.0.0</div>
+          <div className="versao-site">v{versao}</div>
         </footer>
       </>
   );
