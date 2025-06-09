@@ -12,44 +12,12 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--cor-bg);
   color: var(--cor-texto);
   line-height: 1.7;
   font-size: 16px;
-}
-
-/* MENU FIXO NO TOPO */
-.menu {
-  background-color: var(--cor-secundaria);
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 1px solid #222;
-}
-
-.menu ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.menu a {
-  color: var(--cor-texto);
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.menu a:hover {
-  color: var(--cor-destaque);
 }
 
 a {
@@ -170,6 +138,7 @@ footer {
 }
 
 /* Contato */
+
 .botoes-contato {
   display: flex;
   flex-wrap: wrap;
