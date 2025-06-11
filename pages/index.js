@@ -66,8 +66,11 @@ export default function Home() {
             <div className="experiencia-card">
               <div className="experiencia-periodo">2024 — PRESENTE</div>
               <div className="experiencia-detalhes">
-                <h3>Analista de Sistemas · Nootech Sistemas</h3>
-                <p>
+                <h3>
+                  <a href="https://nootech.com.br" target="_blank" rel="noreferrer">
+                    Analista de Sistemas · Nootech Sistemas
+                  </a>
+                </h3>                <p>
                   Responsável pelo desenvolvimento backend com foco em C# e .NET.
                   Atuo em integrações com marketplaces, automações fiscais e melhorias nos PDVs.
                 </p>
