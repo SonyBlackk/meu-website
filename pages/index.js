@@ -63,32 +63,25 @@ export default function Home() {
         <section id="experiencia" className="experiencia">
           <div className="container">
             <h2>Experiências</h2>
-
-            <div className="card-experiencia">
-              <div className="data-experiencia">
-                <span>2024 — PRESENTE</span>
-              </div>
-              <div className="conteudo-experiencia">
-                <h3>
-                  <a href="https://nootech.com.br" target="_blank" rel="noreferrer">
-                    Analista de Sistemas · Nootech Sistemas
-                  </a>
-                </h3>
+            <div className="experiencia-card">
+              <div className="experiencia-periodo">2024 — PRESENTE</div>
+              <div className="experiencia-detalhes">
+                <h3>Analista de Sistemas · Nootech Sistemas</h3>
                 <p>
                   Responsável pelo desenvolvimento backend com foco em C# e .NET.
                   Atuo em integrações com marketplaces, automações fiscais e melhorias nos PDVs.
                 </p>
-                <div className="tags-experiencia">
-                  <span>C#</span>
-                  <span>.NET</span>
-                  <span>SQL Server</span>
-                  <span>REST APIs</span>
+                <div className="experiencia-tags">
+                  <span className="experiencia-tag">C#</span>
+                  <span className="experiencia-tag">.NET</span>
+                  <span className="experiencia-tag">SQL Server</span>
+                  <span className="experiencia-tag">REST</span>
+                  <span className="experiencia-tag">APIs</span>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
 
         <section id="stack" className="stack">
           <div className="container">

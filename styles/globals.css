@@ -178,6 +178,63 @@ footer {
   font-size: 0.8rem;
   margin-right: 0.5rem;
 }
+.experiencia-card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--cor-secundaria);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.experiencia-periodo {
+  font-weight: 600;
+  color: #a0a0a0;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.experiencia-detalhes {
+  flex: 1;
+}
+
+.experiencia-detalhes h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--cor-destaque);
+}
+
+.experiencia-detalhes p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.experiencia-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experiencia-tag {
+  background-color: #2a2f3a;
+  color: #ccc;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .experiencia-card {
+    flex-direction: column;
+  }
+
+  .experiencia-periodo {
+    margin-bottom: 1rem;
+  }
+}
 
 
 /* Contato */
