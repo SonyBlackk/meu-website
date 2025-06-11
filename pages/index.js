@@ -64,7 +64,7 @@ export default function Home() {
           <div className="container">
             <h2>Experiências</h2>
             <div className="experiencia-card">
-              <div className="experiencia-periodo">2024 — PRESENTE</div>
+              <div className="experiencia-periodo">2025 — PRESENTE</div>
               <div className="experiencia-detalhes">
                 <h3>
                   <a href="https://nootech.com.br" target="_blank" rel="noreferrer">
