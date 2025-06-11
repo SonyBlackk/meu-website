@@ -48,8 +48,7 @@ export default function Home() {
             <h2>Projetos</h2>
             <ul>
               <li>
-                <strong>Integração iFood/MeuERPOnline:</strong> tratamento de cupons, benefits e
-                valores no PDV.
+                <strong><a href="https://sonyblackk.github.io/Bugdroid/#" target="_blank">Bugdroid:</a></strong> site interativo que desenvolvi como experimento de animação e estilização com CSS e JavaScript puro.
               </li>
               <li>
                 <strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos.
@@ -127,7 +126,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonshek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">0.1.3</div>
+          <div className="versao-site">0.1.4</div>
         </footer>
       </>
   );
