@@ -51,11 +51,10 @@ export default function Home() {
                 <strong><a href="https://sonyblackk.github.io/Bugdroid/#" target="_blank">Bugdroid:</a></strong> site interativo que desenvolvi como experimento de animação e estilização com CSS e JavaScript puro.
               </li>
               <li>
-                <strong>Integração AiqFome:</strong> importação de pedidos e aplicação de descontos.
+                <strong><a href="https://github.com/SonyBlackk/pokemon-game" target="_blank">Jogo de Pokémon no terminal:</a></strong> jogo em turnos desenvolvido em Python, com batalhas entre Pokémon e sistema de escolha de ataques, totalmente jogável via terminal.
               </li>
               <li>
-                <strong>Kit de Produtos com Rateio:</strong> criação de funcionalidade de valor fixo
-                com distribuição proporcional.
+                <strong><a href="https://github.com/SonyBlackk" target="_blank">Outros Projetos:</a></strong> Confira meus outros projetos clicando no link ao lado e sendo direcionado para meu GitHub
               </li>
             </ul>
           </div>
