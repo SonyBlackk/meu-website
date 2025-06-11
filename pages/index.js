@@ -54,7 +54,7 @@ export default function Home() {
                 <strong><a href="https://github.com/SonyBlackk/pokemon-game" target="_blank">Jogo de Pokémon no terminal:</a></strong> jogo em turnos desenvolvido em Python, com batalhas entre Pokémon e sistema de escolha de ataques, totalmente jogável via terminal.
               </li>
               <li>
-                <strong><a href="https://github.com/SonyBlackk" target="_blank">Outros Projetos:</a></strong> Confira meus outros projetos clicando no link ao lado e sendo direcionado para meu GitHub
+                <strong><a href="https://github.com/SonyBlackk" target="_blank">Outros Projetos:</a></strong> Confira meus outros projetos clicando no link ao lado e sendo direcionado para meu GitHub.
               </li>
             </ul>
           </div>
