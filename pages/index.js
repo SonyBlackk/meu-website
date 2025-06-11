@@ -60,6 +60,36 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="experiencia" className="experiencia">
+          <div className="container">
+            <h2>Experiências</h2>
+
+            <div className="card-experiencia">
+              <div className="data-experiencia">
+                <span>2024 — PRESENTE</span>
+              </div>
+              <div className="conteudo-experiencia">
+                <h3>
+                  <a href="https://nootech.com.br" target="_blank" rel="noreferrer">
+                    Analista de Sistemas · Nootech Sistemas
+                  </a>
+                </h3>
+                <p>
+                  Responsável pelo desenvolvimento backend com foco em C# e .NET.
+                  Atuo em integrações com marketplaces, automações fiscais e melhorias nos PDVs.
+                </p>
+                <div className="tags-experiencia">
+                  <span>C#</span>
+                  <span>.NET</span>
+                  <span>SQL Server</span>
+                  <span>REST APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <section id="stack" className="stack">
           <div className="container">
             <h2>Stack</h2>
@@ -125,7 +155,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonshek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">0.1.5</div>
+          <div className="versao-site">0.1.6</div>
         </footer>
       </>
   );

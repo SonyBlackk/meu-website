@@ -137,6 +137,49 @@ footer {
   }
 }
 
+.experiencia .card-experiencia {
+  background-color: var(--cor-secundaria);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.data-experiencia {
+  min-width: 150px;
+  color: #8b949e;
+  font-weight: 500;
+}
+
+.conteudo-experiencia h3 a {
+  color: var(--cor-destaque);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.conteudo-experiencia h3 a:hover {
+  text-decoration: underline;
+}
+
+.conteudo-experiencia p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--cor-texto);
+}
+
+.tags-experiencia span {
+  background-color: #222;
+  color: var(--cor-texto);
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+
 /* Contato */
 
 .botoes-contato {
