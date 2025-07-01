@@ -54,6 +54,9 @@ export default function Home() {
                 <strong><a href="https://github.com/SonyBlackk/pokemon-game" target="_blank">Jogo de Pokémon no terminal:</a></strong> jogo em turnos desenvolvido em Python, com batalhas entre Pokémon e sistema de escolha de ataques, totalmente jogável via terminal.
               </li>
               <li>
+                <strong><a href="https://github.com/SonyBlackk/caca-palavras-c" target="_blank">Jogo de Caça Palavras:</a></strong> Desenvolvido em C para rodar em terminal, feito como projeto final do segundo semestre da faculdade na matéria de Algoritmos.
+              </li>
+              <li>
                 <strong><a href="https://github.com/SonyBlackk" target="_blank">Outros Projetos:</a></strong> Confira meus outros projetos clicando no link ao lado e sendo direcionado para meu GitHub.
               </li>
             </ul>
@@ -70,7 +73,8 @@ export default function Home() {
                   <a href="https://nootech.com.br" target="_blank" rel="noreferrer">
                     Analista de Sistemas · Nootech Sistemas
                   </a>
-                </h3>                <p>
+                </h3>
+                <p>
                   Responsável pelo desenvolvimento backend com foco em C# e .NET.
                   Atuo em integrações com marketplaces, automações fiscais e melhorias nos PDVs.
                 </p>
@@ -151,7 +155,7 @@ export default function Home() {
           <div className="container">
             <p>&copy; 2025 Luiz Eduardo Jelonshek. Todos os direitos reservados.</p>
           </div>
-          <div className="versao-site">0.1.6</div>
+          <div className="versao-site">0.1.7</div>
         </footer>
       </>
   );
