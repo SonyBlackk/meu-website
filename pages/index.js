@@ -395,6 +395,9 @@ export default function Home() {
           <div className={styles.container}>
             <p>{year} Luiz Eduardo Jelonschek. Portfolio pessoal desenvolvido com Next.js.</p>
           </div>
+          <div className={styles.container}>
+            <p>v2.0</p>
+          </div>
         </footer>
       </div>
     </>
