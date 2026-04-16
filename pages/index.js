@@ -42,11 +42,11 @@ const projects = [
       'Jogo em turnos rodando no terminal com selecao de golpes, logica de combate e fluxo totalmente jogavel.',
   },
   {
-    title: 'Caca-palavras em C',
-    label: 'Projeto academico',
-    href: 'https://github.com/SonyBlackk/caca-palavras-c',
+    title: 'Fork ERPNext',
+    label: 'ERP open-source',
+    href: 'https://github.com/SonyBlackk/erpnext_fiscal_br',
     description:
-      'Projeto final desenvolvido em C para terminal, consolidando estrutura de dados, logica e organizacao do codigo.',
+      'Fork do ERP open-source ERPNext, com adaptacoes para o contexto brasileiro, incluindo requisitos fiscais e ajustes voltados a operacao local.',
   },
   {
     title: 'Mais projetos no GitHub',
@@ -398,7 +398,7 @@ export default function Home() {
             <p>{year} Luiz Eduardo Jelonschek. Portfolio pessoal desenvolvido com Next.js.</p>
           </div>
           <div className={styles.container}>
-            <p>v2.1</p>
+            <p>v2.1.1</p>
           </div>
         </footer>
       </div>
