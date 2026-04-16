@@ -60,6 +60,8 @@ const projects = [
 const stack = [
   'C#',
   '.NET',
+  'Xamarim',
+  'ASP.NET MVC',
   'SQL Server',
   'REST APIs',
   'Integracoes',
@@ -396,7 +398,7 @@ export default function Home() {
             <p>{year} Luiz Eduardo Jelonschek. Portfolio pessoal desenvolvido com Next.js.</p>
           </div>
           <div className={styles.container}>
-            <p>v2.0</p>
+            <p>v2.1</p>
           </div>
         </footer>
       </div>
