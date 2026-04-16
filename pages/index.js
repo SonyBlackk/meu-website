@@ -28,6 +28,13 @@ const focusAreas = [
 
 const projects = [
   {
+    title: 'Fork ERPNext',
+    label: 'ERP open-source',
+    href: 'https://github.com/SonyBlackk/erpnext_fiscal_br',
+    description:
+      'Fork do ERP open-source ERPNext, com adaptacoes para o contexto brasileiro, incluindo requisitos fiscais e ajustes voltados a operacao local.',
+  },
+  {
     title: 'Bugdroid',
     label: 'Experimento front-end',
     href: 'https://sonyblackk.github.io/Bugdroid/#',
@@ -40,13 +47,6 @@ const projects = [
     href: 'https://github.com/SonyBlackk/pokemon-game',
     description:
       'Jogo em turnos rodando no terminal com selecao de golpes, logica de combate e fluxo totalmente jogavel.',
-  },
-  {
-    title: 'Fork ERPNext',
-    label: 'ERP open-source',
-    href: 'https://github.com/SonyBlackk/erpnext_fiscal_br',
-    description:
-      'Fork do ERP open-source ERPNext, com adaptacoes para o contexto brasileiro, incluindo requisitos fiscais e ajustes voltados a operacao local.',
   },
   {
     title: 'Mais projetos no GitHub',
@@ -398,7 +398,7 @@ export default function Home() {
             <p>{year} Luiz Eduardo Jelonschek. Portfolio pessoal desenvolvido com Next.js.</p>
           </div>
           <div className={styles.container}>
-            <p>v2.1.1</p>
+            <p>v2.1.2</p>
           </div>
         </footer>
       </div>
